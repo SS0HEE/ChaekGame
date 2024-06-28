@@ -1733,7 +1733,7 @@ monogatari.script({
 	'ㅊ8': [
 		{'Conditional': {
 				'Condition': function () {
-					if (monogatari.storage ().ㅋ9 = 1) {
+					if (monogatari.storage ().ㅋ9 == 1) {
 						return '1';
 				} else {
 						return '0';
@@ -1745,7 +1745,7 @@ monogatari.script({
 		'show background ㅊ with fadeIn',
 		'wait 300',
 		'show character ㅂ ㅇ at left',
-		'ㅂ 일단…. 아무데나 펼쳐 볼까?',
+		'ㅂ 일단…. 아무데나 펼쳐 볼까? 국어사전에서 단어는 가나다순으로 나와 있다고 했지?',
 		'hide character ㅂ with fadeOut',
 		'jump ㅊ8ㅇ',
 	],
